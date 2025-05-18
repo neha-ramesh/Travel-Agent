@@ -70,7 +70,7 @@ Answers are displayed in real-time on the Streamlit app interface.
 3. **Set Up API Key**  
 Create a `.env` file and add your API key:
     ```env
-    GOOGLE_API_KEY=your_api_key_here
+    COHERE_API_KEY=your_api_key_here
     ```
 *Note:* On Streamlit Cloud, use the Secrets section instead.
 
