@@ -32,8 +32,7 @@ This app provides tailored travel suggestions, answers your destination queries,
 | Streamlit            | For building the frontend & deploying as a web app |
 | Pillow               | To render and customize image display     |
 | python-dotenv        | For managing environment variables locally|
-| Google Generative AI  | For generative travel responses (e.g., Gemini Pro) |
-| Cohere               | Optional alternative for natural language generation |
+| Cohere AI            | For generative travel responses|
 
 ---
 
@@ -83,7 +82,7 @@ Create a `.env` file and add your API key:
 - Create a new app from this repo  
 - Add the secret key in **Settings > Secrets**:
     ```toml
-    GOOGLE_API_KEY = "your_api_key_here"
+    COHERE_API_KEY = "your_api_key_here"
     ```
 
 ---
