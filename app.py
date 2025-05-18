@@ -7,7 +7,7 @@ import os
 
 load_dotenv()
 
-co = cohere.Client(os.getenv("COHERE_API_KEY"))
+co = cohere.Client(st.secrets["COHERE_API_KEY"])
 
 st.set_page_config(page_title="Travel Agent App", layout="wide")
 
